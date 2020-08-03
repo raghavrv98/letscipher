@@ -1,23 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="author" content="Themes Industry">
     <!-- description -->
-    <meta name="description" content="Product is a highly creative, modern, visually stunning and Bootstrap responsive multipurpose agency and HTML5 template with 14 ready home page demos.">
+    <meta name="description"
+        content="Product is a highly creative, modern, visually stunning and Bootstrap responsive multipurpose agency and HTML5 template with 14 ready home page demos.">
     <!-- keywords -->
-    <meta name="keywords" content="creative, modern, clean, bootstrap responsive, html5, css3, portfolio, blog, agency, templates, multipurpose, one page, corporate, start-up, studio, branding, designer, freelancer, carousel, parallax, photography, personal, masonry, grid, faq">
+    <meta name="keywords"
+        content="creative, modern, clean, bootstrap responsive, html5, css3, portfolio, blog, agency, templates, multipurpose, one page, corporate, start-up, studio, branding, designer, freelancer, carousel, parallax, photography, personal, masonry, grid, faq">
     <!-- Page Title -->
-    <title>Digital Marketing | MegaOne | Creative HTML5 Template</title>
+    <title>letscipher</title>
     <!-- Favicon -->
     <link rel="icon" href="digital-marketing/img/favicon.ico">
     <!-- Bundle -->
     <link rel="stylesheet" href="vendor/css/bundle.min.css">
     <!-- Plugin Css -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
-    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
     <link rel="stylesheet" href="vendor/css/cubeportfolio.min.css">
     <link rel="stylesheet" href="vendor/css/owl.carousel.min.css">
@@ -27,167 +30,205 @@
     <link rel="stylesheet" href="digital-marketing/css/line-awesome.min.css">
     <!-- Style Sheet -->
     <link rel="stylesheet" href="digital-marketing/css/style.css">
+    <style>
+        @media screen and (min-width: 768px) {
+            .mentor-box {
+                height: 250px;
+                border: 1px solid;
+                width: 50%;
+                box-shadow: 1px 3px 5px rgba(255, 193, 7, 0.6);
+                border-radius: 16px;
+            }
+
+            .display-menu {
+                display: none;
+            }
+        }
+
+        @media screen and (max-width: 769px) {
+            .mentor-box {
+                height: 300px;
+                border: 1px solid;
+                width: 80%;
+                box-shadow: 1px 3px 5px rgba(255, 193, 7, 0.6);
+                border-radius: 16px;
+            }
+
+            .small-logo {
+                max-width: 180px;
+                margin-top: -63px !important;
+            }
+        }
+    </style>
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="150">
 
-<!--  PRELOADER  -->
-<div class="loader-area">
-    <div class='loader'>
-        <div class='one'></div>
-        <div class='two'></div>
-        <div class='three'></div>
-    </div>
-</div>
-
-<!-- START NAVBAR SECTION -->
-<header>
-
-    <!--    NAVBAR FOR LARGE SCREEN-->
-    <nav id="my-nav1" class="navbar navbar-expand-lg navbar-light rounded-bar transparent-bar">
-
-        <div class="logo small-screen">
-            <a href="#home" class="scroll"><img src="digital-marketing/img/logo.png" alt="Logo Img"></a>
+    <!--  PRELOADER  -->
+    <div class="loader-area">
+        <div class='loader'>
+            <div class='one'></div>
+            <div class='two'></div>
+            <div class='three'></div>
         </div>
+    </div>
 
-        <div class="container bg-trans-color">
-            <div class="row no-gutters w-100">
-                <div class="collapse navbar-collapse" id="navbarSupportedContent1">
-                    <div class="collapse navbar-collapse">
-                        <div class="col-3 col-md-2 col-lg-3 text-left p-0">
-                            <div class="logo">
-                                <a href="#home" class="scroll"><img src="digital-marketing/img/logo.png" alt="Logo Img"></a>
+    <!-- START NAVBAR SECTION -->
+    <header>
+
+        <!--    NAVBAR FOR LARGE SCREEN-->
+        <nav id="my-nav1" class="navbar navbar-expand-lg navbar-light rounded-bar transparent-bar">
+
+            <div class="logo small-screen small-logo">
+                <a href="#home" class="scroll "><img src="digital-marketing/img/logo.png" alt="Logo Img"></a>
+            </div>
+
+            <div class="container bg-trans-color">
+                <div class="row no-gutters w-100">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+                        <div class="collapse navbar-collapse">
+                            <div class="col-3 col-md-2 col-lg-3 text-left p-0">
+                                <div class="logo">
+                                    <a href="#home" class="scroll"><img src="digital-marketing/img/logo.png"
+                                            alt="Logo Img"></a>
+                                </div>
+                            </div>
+                            <div class="col-6 p-0">
+                                <ul id="primary" class="navbar-nav text-center">
+
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#feature">About</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#testimonial">Clients</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#blog">Work</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#contact" class="btn btn-slider pink-btn rounded-pill">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="col-3 text-right p-0">
+                                <div class="banner-icons">
+                                    <a target="_blank" href="https://www.facebook.com/profile.php?id=100009940804768"><i
+                                            class="fa fa-facebook-f icons fb"></i></a>
+                                    <a target="_blank" href="https://twitter.com/Akash_Garg1998?s=08"><i
+                                            class="fa fa-twitter icons twt"></i></a>
+                                    <a target="_blank" href="https://www.instagram.com/garg123akash/"><i
+                                            class="fa fa-instagram icons inst"></i></a>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-6 p-0">
-                        <ul id="primary" class="navbar-nav text-center">
+                    </div>
+                </div>
+            </div>
 
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#feature">about</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#gallery">work</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#testimonial">clients</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#contact" class="btn btn-slider pink-btn rounded-pill">contact</a>
-                            </li>
-                        </ul>
+            <a href="javascript:void(0)" class="sidemenu_btn display-menu" id="sidemenu_toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+        </nav>
+
+        <!--Side Nav-->
+        <div class="side-menu hidden">
+            <div class="inner-wrapper">
+                <span class="btn-close" id="btn_sideNavClose"><i></i><i></i></span>
+                <nav class="side-nav w-100">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link scroll" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link scroll" href="#feature">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link scroll" href="#testimonial">Clients</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link scroll" href="#blog">Work</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="btn btn-slider white-btn rounded-pill">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="side-footer w-100">
+                    <div class="banner-icons">
+                        <a target="_blank" href="https://www.facebook.com/profile.php?id=100009940804768"><i
+                                class="fa fa-facebook-f icons fb"></i></a>
+                        <a target="_blank" href="https://twitter.com/Akash_Garg1998?s=08"><i
+                                class="fa fa-twitter icons twt"></i></a>
+                        <a target="_blank" href="https://www.instagram.com/garg123akash/"><i
+                                class="fa fa-instagram icons inst"></i></a>
+                    </div>
+                    <p>&copy; 2020 All rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+        <a id="close_side_menu" href="javascript:void(0);"></a>
+        <!-- End side menu -->
+    </header>
+
+    <section id="home" class="home">
+        <div class="container">
+            <div class="row height">
+                <div class="col-12 col-md-6 height d-flex align-items-center text-left">
+                    <div class="text d-flex align-items-center">
+                        <div class="home-text text-black height1">
+                            <h6 class="sub-heading mb-2">Beautiful and Responsive</h6>
+                            <h1 class="main-heading mb-0">Creative Websites</h1>
+                            <h4 class="heading mb-3">Simple & Easy</h4>
+                            <a href="#blog" class="btn btn-slider pink-btn rounded-pill scroll">Our Latest Work</a>
                         </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="large-logo">
+                        <img src="digital-marketing/img/logo-large.png" alt="img">
+                    </div>
 
-                        <div class="col-3 text-right p-0">
-                            <div class="banner-icons">
-                            <a href="#"><i class="fa fa-facebook-f icons fb"></i></a>
-                            <a href="#"><i class="fa fa-twitter icons twt"></i></a>
-                            <a href="#"><i class="fa fa-instagram icons inst"></i></a>
-                            </div>
+                    <div class="plant1">
+                        <div class="large-icon plant-home">
+                            <img src="digital-marketing/img/plant1.png" alt="img">
                         </div>
+                        <!--                    <div class="shadow-home">-->
+                        <!--                        <img src="digital-marketing/img/shadow.png" alt="img">-->
+                        <!--                    </div>-->
                     </div>
+
                 </div>
             </div>
         </div>
 
-        <a href="javascript:void(0)" class="sidemenu_btn" id="sidemenu_toggle">
-            <span></span>
-            <span></span>
-            <span></span>
-        </a>
-    </nav>
+        <svg class="yellow-square" viewBox="0 0 200 655" xmlns="http://www.w3.org/2000/svg">
+            <rect x="0" y="32" width="1616" height="1616" rx="28" ry="28" fill="#ffc107"
+                transform="rotate(-45 200 100)" />
+        </svg>
 
-    <!--Side Nav-->
-    <div class="side-menu hidden">
-        <div class="inner-wrapper">
-            <span class="btn-close" id="btn_sideNavClose"><i></i><i></i></span>
-            <nav class="side-nav w-100">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link scroll" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link scroll" href="#feature">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link scroll" href="#gallery">Work</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link scroll" href="#testimonial">Clients</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#contact" class="btn btn-slider white-btn rounded-pill">Contact</a>
-                    </li>
-                </ul>
-            </nav>
+        <svg class="left-square small-view" viewBox="0 0 310 655" xmlns="http://www.w3.org/2000/svg">
+            <rect x="0" y="32" width="1616" height="1616" rx="48" ry="48" fill="#fa2851"
+                transform="rotate(135 100 245)" />
+        </svg>
 
-            <div class="side-footer w-100">
-                <div class="banner-icons">
-                    <a href="#"><i class="fa fa-facebook-f icons"></i></a>
-                    <a href="#"><i class="fa fa-twitter icons"></i></a>
-                    <a href="#"><i class="fa fa-instagram icons"></i></a>
-                </div>
-                <p>&copy; 2020 MegaOne. Made With Love by Themesindustry.</p>
-            </div>
-        </div>
-    </div>
-    <a id="close_side_menu" href="javascript:void(0);"></a>
-    <!-- End side menu -->
-</header>
+    </section>
 
-<section id="home" class="home">
-    <div class="container">
-        <div class="row height">
-            <div class="col-12 col-md-6 height d-flex align-items-center text-left">
-                <div class="text d-flex align-items-center">
-                    <div class="home-text text-black height1">
-                        <h6 class="sub-heading mb-2">Beautiful and Responsive</h6>
-                        <h1 class="main-heading mb-0">Creative Websites</h1>
-                        <h4 class="heading mb-3">Simple & Easy</h4>
-                        <a href="#blog" class="btn btn-slider pink-btn rounded-pill">Our Latest Work</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-6">
-                <div class="large-logo">
-                    <img src="digital-marketing/img/logo-large.png" alt="img">
-                </div>
-
-                <div class="plant1">
-                    <div class="large-icon plant-home">
-                        <img src="digital-marketing/img/plant1.png" alt="img">
-                    </div>
-<!--                    <div class="shadow-home">-->
-<!--                        <img src="digital-marketing/img/shadow.png" alt="img">-->
-<!--                    </div>-->
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-    <svg class="yellow-square" viewBox="0 0 200 655" xmlns="http://www.w3.org/2000/svg">
-        <rect  x = "0" y = "32" width = "1616" height = "1616" rx="28" ry="28" fill="#ffc107" transform = "rotate(-45 200 100)"/>
-    </svg>
-
-    <svg class="left-square small-view" viewBox="0 0 310 655" xmlns="http://www.w3.org/2000/svg">
-        <rect  x = "0" y = "32" width = "1616" height = "1616" rx="48" ry="48" fill="#fa2851" transform = "rotate(135 100 245)"/>
-    </svg>
-
-</section>
-
-<section id="feature" class="feature">
-    <div class="container">
+    <section id="feature" class="feature">
+        <div class="container">
             <div class="row">
                 <div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2 col-sm-12 text-center">
                     <div class="text">
                         <div class="home-text text-black">
-                            <h1 class="main-heading mb-4">We are Digital Agency</h1>
-                            <p class="sub-heading mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                                 aliqua</p>
-                            <a href="#" class="btn btn-slider pink-btn rounded-pill">Learn More</a>
+                            <h1 class="main-heading mb-4">We are Developers</h1>
+                            <p class="sub-heading mb-4">“We don't just build websites, we build websites that SELLS”</p>
+                            <a href="#contact" class="btn btn-slider pink-btn rounded-pill">Learn More</a>
                         </div>
                     </div>
                 </div>
@@ -230,44 +271,45 @@
                 </div>
             </div>
         </div>
-</section>
+    </section>
 
-<section id="stats" class="stats">
+    <section id="stats" class="stats">
         <div class="container">
             <div class="row m-0">
-                    <div class="col-lg-6 offset-lg-4 col-md-10 offset-md-0 col-sm-12 text-left p-0">
-                        <div class="stats-text">
-                            <div class="home-text text-black">
-                                <h1 class="sub-heading">Let us show you some stats</h1>
-                                <h1 class="main-heading mt-3 mb-4">We have done great stuff over the past few years.</h1>
-                                <p class="sub-heading mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                                    aliqua</p>
-                            </div>
+                <div class="col-lg-6 offset-lg-4 col-md-10 offset-md-0 col-sm-12 text-left p-0">
+                    <div class="stats-text">
+                        <div class="home-text text-black">
+                            <h1 class="sub-heading">Let us show you some stats</h1>
+                            <h1 class="main-heading mt-3 mb-4">We have done great stuff over the past few months.</h1>
+                            <p class="sub-heading mb-3">“Learning HTML and CSS is a lot more challenging than it used to
+                                be. Responsive web design adds more layers of complexity to design and develop
+                                websites.”</p>
                         </div>
                     </div>
-                     <div class="col-2">
-                         <div class="plant-img">
-                             <div class="plant">
-                                <img src="digital-marketing/img/plant.jpg" alt="img">
-                             </div>
-                         </div>
-                     </div>
-                 </div>
+                </div>
+                <div class="col-2">
+                    <div class="plant-img">
+                        <div class="plant">
+                            <img src="digital-marketing/img/plant.jpg" alt="img">
+                        </div>
+                    </div>
+                </div>
+            </div>
 
             <div class="row mt-40">
                 <div class="col-lg-8 offset-lg-4 col-md-12 offset-md-0 col-sm-12">
                     <div class="row">
                         <div class="col-12 col-md-4">
-                                <div class="stats-box d-flex">
-                                    <div class="stats-icon">
-                                        <i class="fas fa-users"></i>
-                                    </div>
-                                    <div class="stats-box-text ml-4">
-                                        <h1 class="numbering">500+</h1>
-                                        <p class="sub-heading">Happy Clients</p>
-                                    </div>
+                            <div class="stats-box d-flex">
+                                <div class="stats-icon">
+                                    <i class="fas fa-users"></i>
+                                </div>
+                                <div class="stats-box-text ml-4">
+                                    <h1 class="numbering">10+</h1>
+                                    <p class="sub-heading">Happy Clients</p>
                                 </div>
                             </div>
+                        </div>
 
                         <div class="col-12 col-md-4 mt-4 mt-md-0">
                             <div class="stats-box d-flex">
@@ -287,7 +329,7 @@
                                     <i class="fas fa-check"></i>
                                 </div>
                                 <div class="stats-box-text ml-4">
-                                    <h1 class="numbering">200+</h1>
+                                    <h1 class="numbering">8+</h1>
                                     <p class="sub-heading">Project Completed</p>
                                 </div>
                             </div>
@@ -297,28 +339,34 @@
             </div>
         </div>
 
-    <svg class="left-square stats" viewBox="0 0 310 655" xmlns="http://www.w3.org/2000/svg">
-        <rect  x = "0" y = "32" width = "1616" height = "1616" rx="48" ry="48" fill="#fa2851" transform = "rotate(135 100 245)"/>
-    </svg>
+        <svg class="left-square stats" viewBox="0 0 310 655" xmlns="http://www.w3.org/2000/svg">
+            <rect x="0" y="32" width="1616" height="1616" rx="48" ry="48" fill="#fa2851"
+                transform="rotate(135 100 245)" />
+        </svg>
 
-</section>
+    </section>
 
-<section id="team" class="team">
-    <div class="container">
-        <div class="row">
+    <section id="team" class="team">
+        <div class="container">
+            <!-- <div class="row">
             <div class="col-12 col-md-8 col-lg-6">
                 <div class="team-text text-black">
-                    <h1 class="main-heading mb-3">Our Creative Team</h1>
-                    <p class="sub-heading mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        aliqua</p>
+                    <h1 class="main-heading mb-3">Our Mentor</h1>
+                    <p class="sub-heading mb-4">"If your actions inspire others to dream more, learn more, do more and become more, you are a leader." ...</p>
                 </div>
             </div>
-        </div>
+        </div> -->
 
-        <div class="row">
-            <div class="col-12 col-md-9 col-lg-8">
+            <div class="row">
+                <div style="text-align: center;" class="col-sm-12 col-md-6">
+                    <div class="team-text text-black">
+                        <h1 class="main-heading mb-3">Our Mentor</h1>
+                        <p class="sub-heading mb-4">"If your actions inspire others to dream more, learn more, do more
+                            and become more, you are a leader." ...</p>
+                    </div>
+                    <img class="mentor-box" src="digital-marketing/img/akash.jpg" alt="img">
 
-            <div id="team-carousal" class="owl-carousel owl-theme team-owl mt-100 text-center">
+                    <!-- <div id="team-carousal" class="owl-carousel owl-theme team-owl mt-100 text-center">
                         <div class="item">
                             <div class="team-img">
                                 <img src="digital-marketing/img/team1.jpg" alt="img">
@@ -343,54 +391,61 @@
                             <div class="team-tittle text-left mt-3 mb-3">
                                 <div class="name-img">
                                 <img src="digital-marketing/img/shape-team.png" alt="img">
-                                <h3 class="name mb-0">Lisa Waren</h3>
+                                <h3 class="name mb-0">Akash Garg</h3>
                                 </div>
-                                <p class="sub-heading mb-0 mt-1 text-center text-black">Director</p>
+                                <p class="sub-heading mb-0 mt-1 text-center text-black">Mentor</p>
                                 <div class="social-icons text-center">
                                     <a href="#"><i class="fab fa-facebook-f fb"></i></a>
                                     <a href="#"><i class="fab fa-twitter twt"></i></a>
-                                    <a href="#"><i class="fab fa-dribbble drb"></i></a>
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
 
-    <svg class="right-square team" viewBox="0 0 280 655" xmlns="http://www.w3.org/2000/svg">
-        <rect  x = "0" y = "32" width = "1616" height = "1616" rx="48" ry="48" fill="#ffc107" transform = "rotate(-45 310 100)"/>
-    </svg>
-    <svg class="right-square team small-view" viewBox="0 0 280 655" xmlns="http://www.w3.org/2000/svg">
-        <rect  x = "0" y = "32" width = "1616" height = "1616" rx="48" ry="48" fill="#fa2851" transform = "rotate(-45 310 100)"/>
-    </svg>
-</section>
+        <svg class="right-square team" viewBox="0 0 280 655" xmlns="http://www.w3.org/2000/svg">
+            <rect x="0" y="32" width="1616" height="1616" rx="48" ry="48" fill="#ffc107"
+                transform="rotate(-45 310 100)" />
+        </svg>
+        <svg class="right-square team small-view" viewBox="0 0 280 655" xmlns="http://www.w3.org/2000/svg">
+            <rect x="0" y="32" width="1616" height="1616" rx="48" ry="48" fill="#fa2851"
+                transform="rotate(-45 310 100)" />
+        </svg>
+    </section>
 
-<section id="design" class="design">
+    <section id="design" class="design">
 
-    <div class="col-lg-6 offset-lg-4 col-md-6 offset-md-4 col-sm-12 text-left p-0">
-        <div class="stats-text pl-3 pl-md-5">
-            <div class="home-text text-black">
-                <h1 class="sub-heading">Let us make you happy with</h1>
-                <h1 class="main-heading mt-3 mb-4"><span class="text-yellow">Robust Design</span> and Development Solutions</h1>
-                <p class="sub-heading mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, eiusmod tempor incididunt ut
-                    aliq. Sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                <a href="#" class="btn btn-main pink-btn rounded-pill mt-3">Start Now</a>
+        <div class="col-lg-6 offset-lg-4 col-md-6 offset-md-4 col-sm-12 text-left p-0">
+            <div class="stats-text pl-3 pl-md-5">
+                <div class="home-text text-black">
+                    <h1 class="main-heading mt-3 mb-4"><span class="text-yellow">Robust Design</span> and Development
+                        Solutions</h1>
+                    <h1 class="sub-heading">A website is crucial to any business, large or small.</h1>
+                    <p class="sub-heading mb-3">
+                        A website needs to be fast, friendly and fashionable. It’s the first place clients come to gage
+                        an idea on who you are and what you are about. This is where we come in. Over the years we’ve
+                        developed an eager eye for a good website and have been keen to replicate these for our own
+                        clients. From the slickest graphics to responsive designs, we can build a Robust website for
+                        your needs.</p>
+                    <a href="#contact" class="btn btn-main pink-btn rounded-pill mt-3">Start Now</a>
+                </div>
             </div>
         </div>
-    </div>
 
-    <svg class="left-square design" viewBox="0 0 310 655" xmlns="http://www.w3.org/2000/svg">
-        <rect  x = "0" y = "32" width = "1616" height = "1616" rx="48" ry="48" fill="#000" transform = "rotate(135 100 245)"/>
-    </svg>
+        <svg class="left-square design" viewBox="0 0 310 655" xmlns="http://www.w3.org/2000/svg">
+            <rect x="0" y="32" width="1616" height="1616" rx="48" ry="48" fill="#000" transform="rotate(135 100 245)" />
+        </svg>
 
-    <svg class="right-square small-view" viewBox="0 0 312 600" xmlns="http://www.w3.org/2000/svg">
-        <rect  x = "0" y = "32" width = "1616" height = "1616" rx="48" ry="48" fill="#ffc107" transform = "rotate(-45 310 100)"/>
-    </svg>
+        <svg class="right-square small-blog small-view" viewBox="0 0 312 600" xmlns="http://www.w3.org/2000/svg">
+            <rect x="0" y="32" width="1616" height="1616" rx="48" ry="48" fill="#ffc107"
+                transform="rotate(-45 310 100)" />
+        </svg>
 
-</section>
+    </section>
 
-<section id="gallery" class="gallery">
+    <!-- <section id="gallery" class="gallery">
     <div class="container">
         <div class="section-heading">
             <div class="row">
@@ -485,73 +540,81 @@
         </div>
 
     </div>
-</section>
+</section> -->
 
-<section id="testimonial" class="testimonial">
-    <div class="container">
-        <div class="row">
-            <div class="col-12 col-md-8 col-lg-6">
-                <h1 class="main-heading text-center text-black">Wonderful Words</h1>
-                <div id="testimonial-carousal" class="owl-carousel owl-theme testimonial-owl pt-5 pb-5 text-center">
+    <section id="testimonial" class="testimonial">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-8 col-lg-6">
+                    <h1 class="main-heading text-center text-black">Wonderful Words</h1>
+                    <div id="testimonial-carousal" class="owl-carousel owl-theme testimonial-owl pt-5 pb-5 text-center">
 
-                    <div class="item">
-                        <div class="quotes mb-4">
-                            <i class="fas fa-quote-right"></i>
-                        </div>
+                        <div class="item">
+                            <div class="quotes mb-4">
+                                <i class="fas fa-quote-right"></i>
+                            </div>
 
-                        <div class="description pl-0 pr-0 pl-md-4 pr-md-4 mb-4">
-                            <p class="text-black sub-heading">Lorem ipsum dolor sit amet, consectetur adipi elit, sed do smod tempor incididunt ut
-                                labore et dolore magna sed do smod tempor incididunt ut
-                                labore et aten aliqua. Ut enim veniam,  velit esse cillum</p>
-                        </div>
-                        <div class="testimonial-img mt-2">
-                            <img src="digital-marketing/img/testminial1.jpg" alt="student img">
-                        </div>
-                        <div class="testimonial-tittle mt-3 mb-3">
-                            <h3 class="mb-0">Sara Williams</h3>
-                        </div>
-                    </div>
+                            <div class="description pl-0 pr-0 pl-md-4 pr-md-4 mb-4">
+                                <p class="text-black sub-heading">Their team were easy to work with and helped me make a
+                                    terrific website in a short amount of time.<br>
 
-                    <div class="item">
-                        <div class="quotes mb-4">
-                            <i class="fas fa-quote-right"></i>
+                                    Thanks again guys for all your hard work I will recommend you to all my friends!"
+                                </p>
+                            </div>
+                            <div class="testimonial-img mt-2">
+                                <img style="border-radius: 50%;" src="digital-marketing/img/raghav.jpg"
+                                    alt="student img">
+                            </div>
+                            <div class="testimonial-tittle mt-3 mb-3">
+                                <h3 class="mb-0">Raghav Agrawal</h3>
+                            </div>
                         </div>
 
-                        <div class="description pl-0 pr-0 pl-md-4 pr-md-4 mb-4">
-                            <p class="text-black sub-heading">Lorem ipsum dolor sit amet, consectetur adipi elit, sed do smod tempor incididunt ut
-                                labore et dolore magna sed do smod tempor incididunt ut
-                                labore et aten aliqua. Ut enim veniam,  velit esse cillum</p>
-                        </div>
-                        <div class="testimonial-img mt-2">
-                            <img src="digital-marketing/img/testminial1.jpg" alt="student img">
-                        </div>
-                        <div class="testimonial-tittle mt-3 mb-3">
-                            <h3 class="mb-0">Sara Williams</h3>
-                        </div>
-                    </div>
+                        <div class="item">
+                            <div class="quotes mb-4">
+                                <i class="fas fa-quote-right"></i>
+                            </div>
 
-                    <div class="item">
-                        <div class="quotes mb-4">
-                            <i class="fas fa-quote-right"></i>
+                            <div class="description pl-0 pr-0 pl-md-4 pr-md-4 mb-4">
+                                <p class="text-black sub-heading">We had high expectations for the visual look and
+                                    functionality of astrolive.herokuapp.com and they met and exceeded our expectations.
+                                    We look
+                                    forward to working with them in the near future on another project.<br>
+
+                                    Thanks Guys"</p>
+                            </div>
+                            <div class="testimonial-img mt-2">
+                                <img style="border-radius: 50%;" src="digital-marketing/img/ashish.jpg"
+                                    alt="student img">
+                            </div>
+                            <div class="testimonial-tittle mt-3 mb-3">
+                                <h3 class="mb-0">Dr. Ashish Sharma</h3>
+                            </div>
                         </div>
 
-                        <div class="description pl-0 pr-0 pl-md-4 pr-md-4 mb-4">
-                            <p class="text-black sub-heading">Lorem ipsum dolor sit amet, consectetur adipi elit, sed do smod tempor incididunt ut
-                                labore et dolore magna sed do smod tempor incididunt ut
-                                labore et aten aliqua. Ut enim veniam,  velit esse cillum</p>
-                        </div>
-                        <div class="testimonial-img mt-2">
-                            <img src="digital-marketing/img/testminial1.jpg" alt="student img">
-                        </div>
-                        <div class="testimonial-tittle mt-3 mb-3">
-                            <h3 class="mb-0">Sara Williams</h3>
+                        <div class="item">
+                            <div class="quotes mb-4">
+                                <i class="fas fa-quote-right"></i>
+                            </div>
+
+                            <div class="description pl-0 pr-0 pl-md-4 pr-md-4 mb-4">
+                                <p class="text-black sub-heading">"If you're starting a new business or upgrading an
+                                    existing site, I strongly recommend using WebDesign Enterprise. The employees are
+                                    friendly, knowledgeable, and dedicated to producing a high quality product.</p>
+                            </div>
+                            <div class="testimonial-img mt-2">
+                                <img style="border-radius: 50%;" src="digital-marketing/img/piyush.jpg"
+                                    alt="student img">
+                            </div>
+                            <div class="testimonial-tittle mt-3 mb-3">
+                                <h3 class="mb-0">Piyush</h3>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="row">
+            <!-- <div class="row">
             <div class="col-12 col-md-9">
                 <div class="sponser-tags owl-carousel owl-theme">
                     <div class="item brand-img d-flex justify-content-center">
@@ -568,204 +631,226 @@
                     </div>
                 </div>
             </div>
+        </div> -->
         </div>
-    </div>
 
-    <svg class="right-square test" viewBox="0 0 312 600" xmlns="http://www.w3.org/2000/svg">
-        <rect  x = "0" y = "32" width = "1616" height = "1616" rx="48" ry="48" fill="#fa2851" transform = "rotate(-45 310 100)"/>
-    </svg>
+        <svg class="right-square test" viewBox="0 0 312 600" xmlns="http://www.w3.org/2000/svg">
+            <rect x="0" y="32" width="1616" height="1616" rx="48" ry="48" fill="#fa2851"
+                transform="rotate(-45 310 100)" />
+        </svg>
 
-    <svg class="left-square gallery small-view" viewBox="0 0 310 655" xmlns="http://www.w3.org/2000/svg">
-        <rect  x = "0" y = "32" width = "1616" height = "1616" rx="48" ry="48" fill="#fa2851" transform = "rotate(135 100 245)"/>
-    </svg>
+        <svg class="left-square gallery small-view" viewBox="0 0 310 655" xmlns="http://www.w3.org/2000/svg">
+            <rect x="0" y="32" width="1616" height="1616" rx="48" ry="48" fill="#fa2851"
+                transform="rotate(135 100 245)" />
+        </svg>
 
-</section>
+    </section>
 
-<section id="blog" class="blog">
-    <div class="container">
-        <div class="row m-0">
-            <div class="col-lg-6 offset-lg-4 col-md-12 offset-md-0 col-sm-12 text-left p-0">
-                <div class="home-text text-black">
-                        <h1 class="main-heading mt-3 mb-4">Latest Web <br>Design Blog and News</h1>
-                        <p class="sub-heading mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, eiusmod tempor incididunt ut
-                            aliq. Sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+    <section id="blog" class="blog">
+        <div class="container">
+            <div class="row m-0">
+                <div class="col-lg-6 offset-lg-4 col-md-12 offset-md-0 col-sm-12 text-left p-0">
+                    <div class="home-text text-black">
+                        <h1 class="main-heading mt-3 mb-4">Latest Web Design and Development</h1>
+                        <p class="sub-heading mb-3">“The future depends on what you do today. Don't wait. The time will
+                            never be just right.”
+                        </p>
                     </div>
+                </div>
             </div>
-        </div>
             <div class="row mt-40">
                 <div class="col-lg-8 offset-lg-4 col-md-12 offset-md-0 p-0">
                     <div class="blog-owl owl-carousel owl-theme no-gutters blog-area" id="blog-carousal">
 
                         <div class="item blog-item">
                             <div class="blog-img">
-                                <a href="digital-marketing/standalone.html">
-                                    <img src="digital-marketing/img/blog1.jpg" alt="blog img"></a>
+                                <a target="_blank" href="https://astrolive.herokuapp.com/">
+                                    <img src="digital-marketing/img/astrolive.png" alt="blog img"></a>
                             </div>
 
                             <div class="blog-text text-center text-md-left">
-                                <div class="date mb-2">
-                                    <p class="text-red">May27, 2020</p>
-                                </div>
                                 <div class="info-blog">
-                                    <a href="digital-marketing/standalone.html"><h4>Web design is fun</h4></a>
-                                </div>
-                                <div class="blog-description mb-3">
-                                    <p class="sub-heading">Lorem ipsum dolor sit amet, consadipi. Ut enim adipiscing elit, sed do tempor.</p>
-                                </div>
-                                <div class="writer d-flex">
-                                    <div class="writer-img">
-                                        <img src="digital-marketing/img/blog1-writer.jpg" alt="img">
-                                    </div>
-                                    <p class="writer-name font-italic ml-3">David Villas</p>
+                                    <a target="_blank" href="https://astrolive.herokuapp.com/">
+                                        <h4>Astrolive</h4>
+                                    </a>
                                 </div>
                             </div>
                         </div>
 
                         <div class="item blog-item">
                             <div class="blog-img">
-                                <a href="digital-marketing/standalone.html">
-                                    <img src="digital-marketing/img/blog2.jpg" alt="blog img"></a>
+                                <a target="_blank" href="http://blackreddish.herokuapp.com/">
+                                    <img src="digital-marketing/img/blackreddish.png" alt="blog img"></a>
                             </div>
 
                             <div class="blog-text text-center text-md-left">
-                                <div class="date mb-2">
-                                    <p class="text-red">June14, 2020</p>
-                                </div>
                                 <div class="info-blog">
-                                    <a href="digital-marketing/standalone.html"><h4>Future of websites</h4></a>
+                                    <a target="_blank" href="http://blackreddish.herokuapp.com/">
+                                        <h4>Blackreddish</h4>
+                                    </a>
                                 </div>
-                                <div class="blog-description mb-3">
-                                    <p class="sub-heading">Lorem ipsum dolor sit amet, consadipi. Ut enim adipiscing elit, sed do tempor.</p>
+                            </div>
+                        </div>
+
+                        <div class="item blog-item">
+                            <div class="blog-img">
+                                <a target="_blank" href="https://realestatedummy.herokuapp.com/">
+                                    <img src="digital-marketing/img/chitvan.png" alt="blog img"></a>
+                            </div>
+
+                            <div class="blog-text text-center text-md-left">
+                                <div class="info-blog">
+                                    <a target="_blank" href="https://realestatedummy.herokuapp.com/">
+                                        <h4>Chitvan</h4>
+                                    </a>
                                 </div>
-                                <div class="writer d-flex">
-                                    <div class="writer-img">
-                                        <img src="digital-marketing/img/blog2-writer.jpg" alt="img">
-                                    </div>
-                                    <p class="writer-name font-italic ml-3">Lisa Jhonson</p>
+                            </div>
+                        </div>
+
+                        <div class="item blog-item">
+                            <div class="blog-img">
+                                <a target="_blank" href="https://qafila19.herokuapp.com/">
+                                    <img src="digital-marketing/img/qafila.png" alt="blog img"></a>
+                            </div>
+
+                            <div class="blog-text text-center text-md-left">
+                                <div class="info-blog">
+                                    <a target="_blank" href="https://qafila19.herokuapp.com/">
+                                        <h4>Qafila</h4>
+                                    </a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-    </div>
-
-    <svg class="left-square blog" viewBox="0 0 310 655" xmlns="http://www.w3.org/2000/svg">
-        <rect  x = "0" y = "32" width = "1616" height = "1616" rx="48" ry="48" fill="#ffc107" transform = "rotate(135 100 245)"/>
-    </svg>
-
-    <svg class="right-square small-blog small-view" viewBox="0 0 312 600" xmlns="http://www.w3.org/2000/svg">
-        <rect  x = "0" y = "32" width = "1616" height = "1616" rx="48" ry="48" fill="#ffc107" transform = "rotate(-45 310 100)"/>
-    </svg>
-
-</section>
-
-<section id="contact" class="contact">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <h1 class="main-heading text-black">Interested?<br>Let's Get In Touch</h1>
-            </div>
         </div>
-        <div class="row">
-            <div class="col-12 col-md-7">
-                <form class="contact-form" id="contact-form-data">
-                    <div class="row mt-5">
-                        <div class="col-sm-12" id="result"></div>
-                    </div>
+
+        <svg class="left-square blog" viewBox="0 0 310 655" xmlns="http://www.w3.org/2000/svg">
+            <rect x="0" y="32" width="1616" height="1616" rx="48" ry="48" fill="#ffc107"
+                transform="rotate(135 100 245)" />
+        </svg>
+
+        <svg class="right-square small-blog small-view" viewBox="0 0 312 600" xmlns="http://www.w3.org/2000/svg">
+            <rect x="0" y="32" width="1616" height="1616" rx="48" ry="48" fill="#ffc107"
+                transform="rotate(-45 310 100)" />
+        </svg>
+
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="main-heading text-black">Interested?<br>Let's Get In Touch</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-7">
+                    <form class="contact-form" id="contact-form-data">
+                        <div class="row mt-5">
+                            <div class="col-sm-12" id="result"></div>
+                        </div>
                         <div class="row">
                             <div class="col-12 col-md-5">
-                            <div class="form-group">
-                                <input class="form-control" type="text" placeholder="Your Name" required  id="candidate_name" name="userName">
-                            </div>
+                                <div class="form-group">
+                                    <input class="form-control" type="text" placeholder="Your Name" required
+                                        id="candidate_name" name="userName">
+                                </div>
 
-                            <div class="form-group">
-                                <input class="form-control" type="email" placeholder="Email Address*" required  id="user_email" name="userEmail">
-                            </div>
+                                <div class="form-group">
+                                    <input class="form-control" type="email" placeholder="Email Address*" required
+                                        id="user_email" name="userEmail">
+                                </div>
 
-                            <div class="form-group ">
-                                <input class="form-control" type="text" placeholder="Subject" id="user_subject" name="userSubject">
-                            </div>
+                                <div class="form-group ">
+                                    <input class="form-control" type="text" placeholder="Subject" id="user_subject"
+                                        name="userSubject">
+                                </div>
                             </div>
 
                             <div class="col-12 col-md-7">
                                 <div class="form-group ">
-                                    <textarea class="form-control" placeholder="Your Message" required rows="7" id="user_message" name="userMessage"></textarea>
+                                    <textarea class="form-control" placeholder="Your Message" required rows="7"
+                                        id="user_message" name="userMessage"></textarea>
                                 </div>
                             </div>
                         </div>
 
-                    <button type="button" class="btn btn-slider pink-btn rounded-pill w-100 contact_btn" id="submit_btn"><i class="fa fa-spinner fa-spin mr-2 d-none" aria-hidden="true"></i> <b>Send Message</b></button>
-                </form>
+                        <button type="button" class="btn btn-slider pink-btn rounded-pill w-100 contact_btn"
+                            id="submit_btn"><i class="fa fa-spinner fa-spin mr-2 d-none" aria-hidden="true"></i> <b>Send
+                                Message</b></button>
+                    </form>
+                </div>
+
+                <div class="col-12 col-md-5 mt-5">
+                    <div class="address-part ml-3">
+                        <div class="address d-flex mb-4">
+                            <i class="fas fa-map-marker-alt address-icon mr-3"></i>
+                            <p>H.No. 2701, 5 haveli, bihari pura <br> kosi kalan 281403</p>
+                        </div>
+                        <div class="address d-flex mb-4">
+                            <i class="fas fa-phone-volume address-icon mr-3"></i>
+                            <p>+91-8266061901</p>
+                        </div>
+                        <div class="address d-flex mr-3">
+                            <i class="fas fa-paper-plane address-icon mr-3"></i>
+                            <p>email@website.com</p>
+                        </div>
+                    </div>
+
+                    <div class="plant1">
+                        <div class="plant-contact">
+                            <img src="digital-marketing/img/contact-plant.png" alt="img">
+                        </div>
+                        <div class="shadow-contact">
+                            <img src="digital-marketing/img/shadow-contact.png" alt="img">
+                        </div>
+                    </div>
+                </div>
             </div>
 
-            <div class="col-12 col-md-5 mt-5">
-                <div class="address-part ml-3">
-                <div class="address d-flex mb-4">
-                    <i class="fas fa-map-marker-alt address-icon mr-3"></i>
-                    <p>123 Pak  Avenue, New York,<br> United States</p>
-                </div>
-                <div class="address d-flex mb-4">
-                    <i class="fas fa-phone-volume address-icon mr-3"></i>
-                    <p>+1 631 12345678<span class="ml-3">  +1 631 12345678 </span> </p>
-                </div>
-                <div class="address d-flex mr-3">
-                    <i class="fas fa-paper-plane address-icon mr-3"></i>
-                    <p>email@website.com</p>
-                </div>
-                </div>
-
-                <div class="plant1">
-                    <div class="plant-contact">
-                        <img src="digital-marketing/img/contact-plant.png" alt="img">
-                    </div>
-                    <div class="shadow-contact">
-                        <img src="digital-marketing/img/shadow-contact.png" alt="img">
-                    </div>
-                </div>
-            </div>
-        </div>
-
-<!--        FOOTER SECTION ROW-->
-        <div class="row footer">
-            <div class="col-12 col-md-5">
-                <ul class="footer_ul mb-50">
+            <!--        FOOTER SECTION ROW-->
+            <div class="row footer">
+                <div class="col-12 col-md-5">
+                    <!-- <ul class="footer_ul mb-50">
                     <li class="footer_list"><i class="fa fa-facebook-f fb"></i></li>
                     <li class="footer_list"><i class="fa fa-twitter twt"></i></li>
                     <li class="footer_list"><i class="fa fa-google-plus gogle"></i></li>
                     <li class="footer_list"><i class="fa fa-linkedin-in link"></i></li>
                     <li class="footer_list"><i class="fa fa-instagram inst"></i></li>
                     <li class="footer_list"><i class="las la-envelope gmail"></i></li>
-                </ul>
-                <p class="info footer_text ml-3"><i class="far fa-copyright"></i>2020 MegaOne. Made with love by themesindustry</p>
+                </ul> -->
+                    <p class="info footer_text ml-3"><i class="far fa-copyright"></i> 2020. All Rights Reserved.</p>
 
+                </div>
             </div>
+
         </div>
-
-    </div>
-    <svg class="right-square contact-square" viewBox="0 0 150 390" xmlns="http://www.w3.org/2000/svg">
-        <rect  x = "0" y = "32" width = "1616" height = "1616" rx="18" ry="18" fill="#000" transform = "rotate(-45 310 100)"/>
-    </svg>
-</section>
+        <svg class="right-square contact-square" viewBox="0 0 150 390" xmlns="http://www.w3.org/2000/svg">
+            <rect x="0" y="32" width="1616" height="1616" rx="18" ry="18" fill="#000" transform="rotate(-45 310 100)" />
+        </svg>
+    </section>
 
 
 
 
-<!-- JavaScript -->
-<script src="vendor/js/bundle.min.js"></script>
+    <!-- JavaScript -->
+    <script src="vendor/js/bundle.min.js"></script>
 
-<!-- Plugin Js -->
-<script src="vendor/js/owl.carousel.min.js"></script>
-<script src="vendor/js/jquery.cubeportfolio.min.js"></script>
-<script src="vendor/js/parallaxie.min.js"></script>
+    <!-- Plugin Js -->
+    <script src="vendor/js/owl.carousel.min.js"></script>
+    <script src="vendor/js/jquery.cubeportfolio.min.js"></script>
+    <script src="vendor/js/parallaxie.min.js"></script>
 
-<!-- custom script -->
-<script src="digital-marketing/js/jquery.fancybox.js"></script>
-<script src="digital-marketing/js/jquery.fancybox.min.js"></script>
-<script src="vendor/js/owl.carousel.min.js"></script>
-<script src="digital-marketing/js/mediaelement-and-player.min.js"></script>
-<script src="digital-marketing/js/tilt.jquery.js"></script>
-<script src="vendor/js/contact_us.js"></script>
-<script src="digital-marketing/js/script.js"></script>
+    <!-- custom script -->
+    <script src="digital-marketing/js/jquery.fancybox.js"></script>
+    <script src="digital-marketing/js/jquery.fancybox.min.js"></script>
+    <script src="vendor/js/owl.carousel.min.js"></script>
+    <script src="digital-marketing/js/mediaelement-and-player.min.js"></script>
+    <script src="digital-marketing/js/tilt.jquery.js"></script>
+    <script src="vendor/js/contact_us.js"></script>
+    <script src="digital-marketing/js/script.js"></script>
 </body>
+
 </html>
