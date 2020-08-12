@@ -59,6 +59,16 @@
                 margin-top: -63px !important;
             }
         }
+
+        .about-img {
+            border-radius: 10px;
+            height: 300px;
+        }
+
+        .social-icons {
+            position: absolute;
+            right: 40px;
+        }
     </style>
 </head>
 
@@ -100,13 +110,19 @@
                                         <a class="nav-link" href="#">Home</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#feature">About</a>
+                                        <a class="nav-link" href="/#about">AboutUs</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="/services">Services</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="#testimonial">Clients</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#blog">Work</a>
+                                        <a class="nav-link" href="#work">Work</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="/developer">Developer</a>
                                     </li>
                                     <li class="nav-item">
                                         <a href="#contact" class="btn btn-slider pink-btn rounded-pill">Contact</a>
@@ -114,7 +130,7 @@
                                 </ul>
                             </div>
 
-                            <div class="col-3 text-right p-0">
+                            <div class="social-icons text-right p-0">
                                 <div class="banner-icons">
                                     <a target="_blank" href="https://www.facebook.com/profile.php?id=100009940804768"><i
                                             class="fa fa-facebook-f icons fb"></i></a>
@@ -146,13 +162,19 @@
                             <a class="nav-link scroll" href="#home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link scroll" href="#feature">About</a>
+                            <a class="nav-link scroll" href="#about">AboutUs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/services">Services</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link scroll" href="#testimonial">Clients</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link scroll" href="#blog">Work</a>
+                            <a class="nav-link scroll" href="#work">Work</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/developer">Developer</a>
                         </li>
                         <li class="nav-item">
                             <a href="#contact" class="btn btn-slider white-btn rounded-pill">Contact</a>
@@ -220,13 +242,13 @@
 
     </section>
 
-    <section id="feature" class="feature">
+    <section id="about" class="feature">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2 col-sm-12 text-center">
                     <div class="text">
                         <div class="home-text text-black">
-                            <h1 class="main-heading mb-4">We are Developers</h1>
+                            <h1 class="main-heading mb-4">Who are we</h1>
                             <p class="sub-heading mb-4">“We don't just build websites, we build websites that SELLS”</p>
                             <a href="#contact" class="btn btn-slider pink-btn rounded-pill">Learn More</a>
                         </div>
@@ -234,8 +256,8 @@
                 </div>
             </div>
 
-            <div class="row mt-90">
-                <div class="col-12 col-md-4 mb-3 mb-md-0">
+            <div class="row mt-40">
+                <!-- <div class="col-12 col-md-4 mb-3 mb-md-0">
                     <div class="card box text-center">
                         <div class="feature-icon text-center">
                             <i class="far fa-lightbulb"></i>
@@ -244,9 +266,36 @@
                             <p class="card-text sub-heading text-black">We have some creative ideas for you.</p>
                         </div>
                     </div>
+                </div> -->
+
+                <div class="col-12 col-md-8">
+
+                    <p class="sub-heading mb-3">
+
+                        Welcome to letscipher.com, your best place for all website & App related Queries. We're
+                        dedicated to providing you the very best of static and dynamic websites, with an emphasis on
+                        Hard coded, Wordpress and optimised SEO for your websites.<br><br>
+                        <i class="fa fa-chevron-right" aria-hidden="true"></i>Founded by Raghav agrawal, Akash Garg has
+                        come a long way from its beginnings in Kosi kalan (Mathura). <br><br>
+                        <i class="fa fa-chevron-right" aria-hidden="true"></i>When we first started out, our passion for
+                        making websites for people who start their own business.<br><br>
+                        <i class="fa fa-chevron-right" aria-hidden="true"></i>We hope you enjoy our products as much as
+                        we enjoy offering them to you. If you have any questions or comments, please don't hesitate to
+                        contact us.<br>
+                    </p>
+
                 </div>
 
-                <div class="col-12 col-md-4 mt-5 mt-md-0 mb-3 mb-md-0">
+                <div class="col-12 col-md-4">
+
+                    <div>
+                        <img class="about-img" src="digital-marketing/img/about.jpg" alt="img">
+                    </div>
+
+                </div>
+
+
+                <!-- <div class="col-12 col-md-4 mt-5 mt-md-0 mb-3 mb-md-0">
                     <div class="card box text-center">
                         <div class="feature-icon text-center center">
                             <i class="far fa-copy"></i>
@@ -268,7 +317,7 @@
                         </div>
                     </div>
 
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
@@ -369,8 +418,8 @@
                     <div class="name-img">
                         <img src="digital-marketing/img/shape-team.png" alt="img">
                         <h3 class="name mb-0">Akash Garg</h3>
-                        </div>
-                        
+                    </div>
+
                     <!-- <div id="team-carousal" class="owl-carousel owl-theme team-owl mt-100 text-center">
                         <div class="item">
                             <div class="team-img">
@@ -651,7 +700,7 @@
 
     </section>
 
-    <section id="blog" class="blog">
+    <section id="work" class="blog">
         <div class="container">
             <div class="row m-0">
                 <div class="col-lg-6 offset-lg-4 col-md-12 offset-md-0 col-sm-12 text-left p-0">
@@ -775,7 +824,7 @@
                             <div class="col-12 col-md-5">
                                 <div class="form-group">
                                     <input class="form-control" type="text" placeholder="Your Name" required
-                                         name="name">
+                                        name="name">
                                 </div>
 
                                 <div class="form-group">
@@ -785,8 +834,7 @@
 
                                 <div class="form-group ">
                                     <input class="form-control" type="tel" name="phone" pattern="[1-9]{1}[0-9]{9}"
-                                                title="Enter 10 digit mobile number" placeholder="Phone Number"
-                                                required>
+                                        title="Enter 10 digit mobile number" placeholder="Phone Number" required>
                                 </div>
                             </div>
 
@@ -853,7 +901,8 @@
     </section>
 
 
-    <script async>(function(w, d) { w.CollectId = "5f2a3e2bcac8ec33b6a2c36b"; var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script"); s.setAttribute("type", "text/javascript"); s.setAttribute("src", "https://collectcdn.com/launcher.js"); h.appendChild(s); })(window, document);</script>
+    <script
+        async>(function (w, d) { w.CollectId = "5f2a3e2bcac8ec33b6a2c36b"; var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script"); s.setAttribute("type", "text/javascript"); s.setAttribute("src", "https://collectcdn.com/launcher.js"); h.appendChild(s); })(window, document);</script>
 
     <!-- JavaScript -->
     <script src="vendor/js/bundle.min.js"></script>

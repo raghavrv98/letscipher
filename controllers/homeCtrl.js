@@ -10,6 +10,16 @@ module.exports = {
         });
     },
 
+    showServices: (req, res, next) => {
+        res.render('services', {
+        });
+    },
+
+    showDeveloper: (req, res, next) => {
+        res.render('developer', {
+        });
+    },
+
     enquiryMail: (req, res, next) => {
         var name = req.body.name
         var email = req.body.emailId
