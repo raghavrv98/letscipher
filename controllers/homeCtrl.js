@@ -15,8 +15,8 @@ module.exports = {
         });
     },
 
-    showDeveloper: (req, res, next) => {
-        res.render('developer', {
+    showTeam: (req, res, next) => {
+        res.render('team', {
         });
     },
 
