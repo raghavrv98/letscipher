@@ -35,32 +35,41 @@
 			.display-menu {
 				display: none;
 			}
-		
+
+			.joinUs-img {
+				width: 100%;
+				position: relative;
+			}
+
+			.outer-box {
+				padding: 50px;
+				border-radius: 16px;
+				position: absolute;
+				transform: translate(-50%, 0%);
+				top: 50%;
+				left: 50%;
+				z-index: 100;
+			}
+
 		}
 
-@media screen and (max-width: 769px) {
+		@media screen and (max-width: 769px) {
 			.small-logo {
 				max-width: 180px;
 				margin-top: -63px !important;
 			}
+
+			.joinUs-img {
+				display: none;
+				width: 100%;
+				position: relative;
+			}
+
+			.outer-box {
+				padding: 50px;
+				border-radius: 16px;
+			}
 		}
-
-		.joinUs-img{
-			width: 100%;
-			position: relative;
-		}
-
-		.outer-box {
-    padding: 50px;
-    border-radius: 16px;
-    position: absolute;
-    transform: translate(-50%, 0%);
-    top: 50%;
-    left: 50%;
-	z-index: 100;
-
-		}
-
 	</style>
 </head>
 
@@ -191,7 +200,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-12 text-center">
-					<h1 class="main-heading text-black">Work with us</h1><br><br>
+					<h1 class="main-heading text-black">Work with us</h1>
 				</div>
 			</div>
 			<div class="row outer-box">
@@ -199,8 +208,7 @@
 					<div class="row">
 						<div class="col-12 col-md-6">
 							<div class="form-group">
-								<input class="form-control" type="text" placeholder="Your Name" required
-									name="name">
+								<input class="form-control" type="text" placeholder="Your Name" required name="name">
 							</div>
 
 							<div class="form-group">
@@ -233,7 +241,8 @@
 						</div>
 					</div>
 
-					<button style="text-align: end;" type="submit" class="btn btn-slider pink-btn rounded-pill w-20"> <b>Join the team</b></button>
+					<button style="text-align: end;" type="submit" class="btn btn-slider pink-btn rounded-pill w-20">
+						<b>Join the team</b></button>
 				</form>
 			</div>
 			<img class="joinUs-img" src="digital-marketing/img/joinUs.jpg">
