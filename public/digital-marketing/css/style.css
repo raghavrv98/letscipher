@@ -1,44 +1,3 @@
-
-
-/* ===================================
-                About
-   =================================== */
-
-/*
-    Theme Name: Product
-    Theme URI:
-    Author: Themes Industry
-    Author URI:
-    Description: One Page , Multi Parallax Template
-    Tags: One page, multi page, multipurpose, parallax, creative, html5
-
- */
-
-/***************Table of Content**************/
-/*  - Fonts
-    - General Classes
-    - Scroll Bar
-    - Preloader
-    - Header And Navigation
-    - Home Section
-    - Feature Section
-    - Stats Section
-    - Team Section
-    - Portfolio Section
-    - Testimonials
-    - Blog Section
-    - Contact Section
-    - Footer
-    - Standlone Page
-    - Media Queries   */
-
-
-/*********IMPORT FONTS**********/
-
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;700;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
-
-
 /**********GENERAL CLASSES***********/
 body, html{
     scroll-behavior: smooth;
@@ -493,7 +452,7 @@ a{
 }
 
 .side-menu .inner-wrapper {
-    padding: 3.5rem 5rem;
+    padding: 30px 100px;
     height: 100%;
     position: relative;
     overflow-y: auto;
