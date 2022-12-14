@@ -1650,7 +1650,10 @@ span{
     height: 100%;
     width: 100%;
 }
-
+.header-right{
+    position: absolute;
+    right: 0px;
+}
 
 
 
