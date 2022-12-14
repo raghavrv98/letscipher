@@ -97,116 +97,7 @@
 
     <!-- START NAVBAR SECTION -->
 
-    <header>
-
-        <!--    NAVBAR FOR LARGE SCREEN-->
-        <nav id="my-nav1" class="navbar navbar-expand-lg navbar-light rounded-bar transparent-bar">
-
-            <div class="logo small-screen small-logo">
-                <a href="#home" class="scroll "><img src="digital-marketing/img/logo.png" alt="letscipher"></a>
-            </div>
-
-            <div class="container bg-trans-color">
-                <div class="row no-gutters w-100">
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent1">
-                        <div class="collapse navbar-collapse">
-                            <div class="col-3 col-md-2 col-lg-3 text-left p-0">
-                                <div class="logo">
-                                    <a href="/" class="scroll"><img src="digital-marketing/img/logo.png"
-                                            alt="letscipher"></a>
-                                </div>
-                            </div>
-                            <div class="col-6 p-0">
-                                <ul id="primary" class="navbar-nav text-center">
-
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="/">Home</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="/#about">AboutUs</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#services">Services</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="/#testimonial">Clients</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="/#work">Work</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="/team">Team</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="/joinUs">JoinUs</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="#contact" class="btn btn-slider pink-btn rounded-pill">Contact</a>
-                                    </li>
-                                </ul>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <a href="javascript:void(0)" class="sidemenu_btn display-menu" id="sidemenu_toggle">
-                <span></span>
-                <span></span>
-                <span></span>
-            </a>
-        </nav>
-
-        <!--Side Nav-->
-        <div class="side-menu hidden">
-            <div class="inner-wrapper">
-                <span class="btn-close" id="btn_sideNavClose"><i></i><i></i></span>
-                <nav class="side-nav w-100">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link scroll" href="/">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link scroll" href="/#about">AboutUs</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#services">Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link scroll" href="/#testimonial">Clients</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link scroll" href="/#work">Work</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/team">Team</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/joinUs">JoinUs</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#contact" class="btn btn-slider white-btn rounded-pill">Contact</a>
-                        </li>
-                    </ul>
-                </nav>
-
-                <!-- <div class="side-footer w-100">
-                    <div class="banner-icons">
-                        <a target="_blank" href="https://www.facebook.com/profile.php?id=100009940804768"><i
-                                class="fa fa-facebook-f icons fb"></i></a>
-                        <a target="_blank" href="https://twitter.com/Akash_Garg1998?s=08"><i
-                                class="fa fa-twitter icons twt"></i></a>
-                        <a target="_blank" href="https://www.instagram.com/garg123akash/"><i
-                                class="fa fa-instagram icons inst"></i></a>
-                    </div>
-                    <p>&copy; letscipher. All rights Reserved.</p>
-                </div> -->
-            </div>
-        </div>
-        <a id="close_side_menu" href="javascript:void(0);"></a>
-        <!-- End side menu -->
-    </header>
+    <% include header %>
 
     <section id="services" class="feature">
         <div class="container">
@@ -334,7 +225,7 @@
                         </div>
                         <div class="card-body">
                             <p class="card-text sub-heading text-black">Google Analytics</p>
-                            <p class="card-text sub-heading text-black">Describes your website performance.</p>
+                            <p class="card-text sub-heading text-black">Analyse website performance.</p>
                         </div>
                     </div>
 
@@ -343,95 +234,12 @@
         </div>
     </section>
 
-    <section id="contact" class="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <h1 class="main-heading text-black">Interested?<br>Let's Get In Touch</h1>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12 col-md-7">
-                    <form class="contact-form" method="post" action="/">
-                        <div class="row mt-5">
-                            <div class="col-sm-12" id="result"></div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12 col-md-5">
-                                <div class="form-group">
-                                    <input class="form-control" type="text" placeholder="Your Name" required
-                                        name="name">
-                                </div>
+    <% include footer %>
 
-                                <div class="form-group">
-                                    <input class="form-control" type="email" placeholder="Email Address*" required
-                                        name="emailId">
-                                </div>
-
-                                <div class="form-group ">
-                                    <input class="form-control" type="tel" name="phone" pattern="[1-9]{1}[0-9]{9}"
-                                        title="Enter 10 digit mobile number" placeholder="Phone Number" required>
-                                </div>
-                            </div>
-
-                            <div class="col-12 col-md-7">
-                                <div class="form-group ">
-                                    <textarea class="form-control" placeholder="Your Message" required rows="7"
-                                        name="msg"></textarea>
-                                </div>
-                            </div>
-                        </div>
-
-                        <button type="submit" class="btn btn-slider pink-btn rounded-pill w-100"> <b>Send
-                                Message</b></button>
-                    </form>
-                </div>
-
-                <div class="col-12 col-md-5 mt-5">
-                    <div class="address-part ml-3">
-                        <div class="address d-flex mb-4">
-                            <i class="fa fa-home address-icon mr-3"></i>
-                            <p>H.No. 2701, 5 haveli, bihari pura <br> kosi kalan 281403</p>
-                        </div>
-                        <div class="address d-flex mb-4">
-                            <i class="fa fa-phone address-icon mr-3"></i>
-                            <p>+91-8266061901</p>
-                        </div>
-                        <div class="address d-flex mr-3">
-                            <i class="fa fa-envelope address-icon mr-3"></i>
-                            <p>teamletscipher@gmail.com</p>
-                        </div>
-                    </div>
-
-                    <div class="plant1">
-                        <div class="plant-contact">
-                            <img src="digital-marketing/img/contact-plant.png" alt="SEO services">
-                        </div>
-                        <div class="shadow-contact">
-                            <img src="digital-marketing/img/shadow-contact.png" alt="SEO services">
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!--        FOOTER SECTION ROW-->
-            <div class="row footer">
-                <div class="col-12 col-md-5">
-                    <p class="info footer_text ml-3"><i class="fa fa-copyright"></i> letscipher. All Rights Reserved.
-                    </p>
-
-                </div>
-            </div>
-
-        </div>
-        <svg class="right-square contact-square" viewBox="0 0 150 390" xmlns="http://www.w3.org/2000/svg">
-            <rect x="0" y="32" width="1616" height="1616" rx="18" ry="18" fill="#000" transform="rotate(-45 310 100)" />
-        </svg>
-    </section>
     <!-- <script
         async>(function (w, d) { w.CollectId = "5f2a3e2bcac8ec33b6a2c36b"; var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script"); s.setAttribute("type", "text/javascript"); s.setAttribute("src", "https://collectcdn.com/launcher.js"); h.appendChild(s); })(window, document);</script> -->
 
-    <div class="float"><a href="https://api.whatsapp.com/send?phone=918266061901"><img
+    <div class="float"><a href="https://api.whatsapp.com/send?phone=918630422423"><img
                 src="digital-marketing/img/whatsapp.png" alt="whatsapp Chat Bot"></a></div>
 
 
